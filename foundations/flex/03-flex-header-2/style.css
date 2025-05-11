@@ -6,6 +6,7 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+
 }
 
 .header {
@@ -20,6 +21,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  
 }
 
 .logo {
@@ -41,8 +43,29 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
+
 }
 
 ul {
   list-style-type: none;
+}
+
+
+/* solution */
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 30px;
+}
+
+ul {
+  flex: auto;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.links {
+  display: flex;
 }

@@ -1,0 +1,17 @@
+.normal-class{
+    background-color: rgb(241, 124, 124);
+}
+#id {
+    color:blue;
+    font-size: 30px;
+}
+
+.cool {
+    background-color: rgb(241, 124, 124);
+    font-size: 30px;
+}
+
+#id2 {
+    background-color: green;
+    font-size: 30px;
+}

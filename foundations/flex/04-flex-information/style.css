@@ -5,11 +5,13 @@ body {
 img {
   width: 100px;
   height: 100px;
+  
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: center;
 }
 
 /* do not edit this footer */
@@ -24,3 +26,29 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+* {
+  
+  
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+
+div {
+  text-align: center;
+  gap: 50px;
+}
+
